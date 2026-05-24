@@ -8,6 +8,14 @@ body{
     font-weight: 300;
     background-color: #f7f5f2;
 }
+header{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background: rgba (247,245,242, 0.92);
+    backdrop-filter: blur (14px);
+    border-bottom: 1px solod #e2ddd6;
+}
 nav{
     max-width: 1100px;
     margin: 0 auto;
@@ -15,8 +23,23 @@ nav{
     display: flex;
     align-items: center;
     gap: 2.5rem;
+    background-color: azure;
 }
 
 .logo{
     margin-right: auto;
+}
+.logo img{
+height: 60px;
+width: auto;
+}
+
+nav a {
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    color: coral;    
+}
+nav a:hover {
+    color: darkblue;
 }
