@@ -23,7 +23,6 @@ nav{
     display: flex;
     align-items: center;
     gap: 2.5rem;
-    
 }
 
 .logo{
@@ -56,10 +55,17 @@ nav a{
     text-decoration: none;
 }
 
+#video{
+    text-align: center;
+}
+
+#video h2{
+    margin-bottom: 20px;
+}
+
 video{
-    width: 100%;
-    max-width: 800px;
-    height: auto;
+    display: block;
+    margin: auto;
 }
 
 #home{
