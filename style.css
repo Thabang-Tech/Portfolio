@@ -12,34 +12,42 @@ header{
     position: sticky;
     top: 0px;
     left: 0px;
-    background: rgba (247,245,242, 0.92);
+    background: rgba(247,245,242, 0.92);
     backdrop-filter: blur (14px);
-    border-bottom: 1px solod #e2ddd6;
+    border-bottom: 1px solid #e2ddd6;
 }
 nav{
-    max-width: 1100px;
+    max-width: 15000px;
     margin: 0 auto;
     padding: 1.2rem 2rem;
     display: flex;
     align-items: center;
     gap: 2.5rem;
-    background-color: azure;
+    
 }
 
 .logo{
     margin-right: auto;
 }
 .logo img{
-height: 60px;
+height: 40px;
 width: auto;
 }
 
-nav a {
+nav a,
+#contact a,
+#about a{
     font-size: 0.75rem;
     font-weight: 400;
     letter-spacing: 0.04rem;
-    color: coral;    
-}
-nav a:hover {
     color: darkblue;
+    transition: color 0.2s ease;
+    text-transform: uppercase;
+}
+
+nav a:hover,
+#about a:hover,
+#contact a:hover,
+footer a:hover {
+    color: cornflowerblue
 }
