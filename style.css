@@ -60,12 +60,17 @@ nav a{
 }
 
 #video h2{
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 video{
     display: block;
     margin: auto;
+}
+
+#home,
+#video{
+    margin: 50px;
 }
 
 #home{
@@ -74,8 +79,8 @@ video{
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
-    margin: 0 auto;
-    gap: 4rem;
+    margin: 80px 150px;
+    gap: 60px;
 }
     
 .intro {
@@ -92,9 +97,11 @@ video{
 }
 
 #home img {
-    width: 300px;
+    width: 350px;
     height: auto;
-    flex-shrink: 0;
+    object-fit: cover;
+    /*flex-shrink: 0;*/
+    border-radius: 8px;
 }
 
 footer{
